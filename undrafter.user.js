@@ -8,8 +8,8 @@
 // @run-at       document-end
 // @noframes
 // @namespace    https://mave.media
-// @updateURL    https://raw.githubusercontent.com/Mave-Media/youtube-undrafter/main/undrafter.user.js
-// @downloadURL  https://raw.githubusercontent.com/Mave-Media/youtube-undrafter/main/undrafter.user.js
+// @updateURL    https://Mave-Media.github.io/youtube-undrafter/undrafter.user.js
+// @downloadURL  https://Mave-Media.github.io/youtube-undrafter/undrafter.user.js
 // ==/UserScript==
 
 (() => {
@@ -1013,3 +1013,4 @@ async function undrafter() {
     };
   })();
 })();
+
