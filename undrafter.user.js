@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         YouTube Optimizer REWORK (Vanilla JS)
-// @version      2.1
+// @version      2.2.1
 // @description  Patch YouTube Studio undrafting modals + helpers (no jQuery, no external requires)
 // @author       Mave
 // @match        https://studio.youtube.com/*
@@ -394,7 +394,7 @@ async function waitForEditor(timeout = 15000) {
   function youtubeLetsGo() {
     if (window.__MAVE_YT_OPT_V2_STARTED__) return;
     window.__MAVE_YT_OPT_V2_STARTED__ = true;
-    console.log("[MAVE YT OPT] youtubeLetsGo() starting");
+    console.log("[MAVE YT OPT] youtubeLetsGo() starting, script working like a charm!");
 
     function logIntro() {
       console.log("YouTube Studio Upload Optimizer V2.0 - Vanilla JS - Let's Go!");
@@ -1013,6 +1013,7 @@ async function undrafter() {
     };
   })();
 })();
+
 
 
 
