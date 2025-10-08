@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         YouTube Optimizer REWORK (Vanilla JS)
-// @version      2.2.2
+// @version      2.2.3
 // @description  Patch YouTube Studio undrafting modals + helpers (no jQuery, no external requires)
 // @author       Mave
 // @match        https://studio.youtube.com/*
@@ -21,7 +21,7 @@
   if (window.top !== window.self) return;
   if (window.__MAVE_YT_OPT_V2__) return;
   window.__MAVE_YT_OPT_V2__ = true;
-  console.log("MAVE YTO active, v2.2.2");
+  console.log("MAVE YTO active, v2.2.3 test autoupdate");
 
   /***********************
    * Small utilities
@@ -1013,6 +1013,7 @@ async function undrafter() {
     };
   })();
 })();
+
 
 
 
